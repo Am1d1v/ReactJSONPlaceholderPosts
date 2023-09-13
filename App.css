@@ -1,9 +1,8 @@
 .App {
   display: grid;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px 10px;
 }
 
 
@@ -17,3 +16,7 @@ button {
 }
 
 
+.Post{
+  border: 1px solid black;
+  padding: 15px;
+}

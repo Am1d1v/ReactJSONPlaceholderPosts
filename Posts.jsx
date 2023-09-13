@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import React from "react";
 import Post from "./Post";
 
 
@@ -19,11 +20,11 @@ function Posts(){
     //console.log(posts)
 
     return(
-       <div>
+       <React.Fragment>
          {posts.map((post) => {
            return <Post {...post} key={post.id}/>
          })}
-       </div>
+       </React.Fragment>
     )
 }
 

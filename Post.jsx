@@ -6,11 +6,12 @@ function Post(props){
     const {id, title, body} = props
 
     return(
-        <div>
-            <h2>UserID: {id}</h2>
-            <h3>{title}</h3>
-            <p>{body}</p>
-        </div>
+            <div className="Post">
+                <h2>UserID: {id}</h2>
+                <h3>{title}</h3>
+                <p>{body}</p>
+            </div>
+        
     )
 }
 
